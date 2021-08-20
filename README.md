@@ -1,4 +1,4 @@
 # WhatsSpam
 
-Whatsapp spammer for fun, please do not use maliciously.
+Whatsapp spammer for fun, please don't use it maliciously, seriously.
 
