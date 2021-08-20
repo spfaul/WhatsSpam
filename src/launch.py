@@ -11,7 +11,7 @@ def launch_browser(session=None):
 
     if session:
         options.add_argument(f'--user-data-dir={pathlib.Path().absolute()}/{session}')
-    browser = sl.webdriver.Chrome(f'{os.path.dirname(__file__)}\\..\\chromedriver.exe', options=options)
+    browser = sl.webdriver.Chrome(f'{pathlib.Path().absolute()}\\chromedriver.exe', options=options)
     browser.get("https://web.whatsapp.com/")
 
     print('Successful Launch!')
